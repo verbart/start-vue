@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: inherit;
+}
+
+:focus {
+  outline: none;
+}
+
+::-moz-focus-inner {
+  border: none;
+}
+
+::placeholder {
+  color: #bebebe;
+}
+
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+}
+
+html {
+  font: 400 $base-font-size/1.5 Roboto, Helvetica, Arial, sans-serif;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+a {
+  color: inherit;
+  cursor: default;
+
+  &[href] {
+    cursor: pointer;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+textarea {
+  resize: none;
+}
+
+address {
+  font-style: normal;
+}

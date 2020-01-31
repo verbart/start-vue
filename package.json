@@ -1,0 +1,53 @@
+{
+  "name": "start-site",
+  "version": "0.1.0",
+  "author": "Artem Verbat",
+  "homepage": "https://github.com/verbart/start-vue#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verbart/start-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/verbart/start-vue/issues"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/runtime": "^7.7.7",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.4.2",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-symbols": "^3.2.3",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-tinypng-nokey": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "node-sass": "^4.13.1",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^8.0.2",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
